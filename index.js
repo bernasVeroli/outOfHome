@@ -8,6 +8,8 @@ const tSecond = 2;
 const tThird = 3;
 
 var textResult = 0;
+
+var i = false;
 function principal() {
   switch (textResult) {
   case 0 :
