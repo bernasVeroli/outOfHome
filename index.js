@@ -20,8 +20,5 @@ function principal() {
     break;
   }
 }
-sFirst.addEventListener("click", function(){
-  i = !i;
-  alert(i);
-});
+sFirst.addEventListener("click", function(){ i = !i; },   alert(i););
 principal();
