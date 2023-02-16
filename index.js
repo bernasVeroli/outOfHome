@@ -18,8 +18,7 @@ function principal() {
     break;
   }
 }
-sFirst.addEventListener("click", function(i){
-  i = !i;
+sFirst.addEventListener("click", i = !i, function(){
   alert(i);
 });
 principal();
