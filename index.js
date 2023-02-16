@@ -18,7 +18,7 @@ function principal() {
     break;
   }
 }
-sFirst.addEventListener("click", function(i = false){
+sFirst.addEventListener("click", function(i){
   i = !i;
   alert(i);
 });
