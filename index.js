@@ -20,7 +20,8 @@ function principal() {
     break;
   }
 }
-sFirst.addEventListener("click", i = !i, function(){
+sFirst.addEventListener("click", function(){
+  i = !i;
   alert(i);
 });
 principal();
